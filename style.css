@@ -19,6 +19,21 @@
     outline: none;
     background: none;
   }
+
+  .ml15 {
+    display: flex;
+    padding: 4px 194px;
+    margin-top: 23px;
+    font-weight: 300;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .ml15 .word {
+    display: initial;
+    line-height: 1em;
+  }
   
   .cont{
     overflow: hidden;
@@ -26,7 +41,7 @@
     width: 900px;
     height: 550px;
     background: #fff;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: rgba(0, 0, 19px, 38px ), 0 15px 12px 14 rgba(11, 56, 22, 0.692);
   }
   
   .form{
