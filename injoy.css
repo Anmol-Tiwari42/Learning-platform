@@ -1,0 +1,30 @@
+.img {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 80px;
+  }
+
+  .icon {
+    width: 100%;
+    background-color: rgb(38, 112, 209);
+    overflow: auto;
+  }
+  
+  .icon a {
+    float: left;
+    padding: 12px;
+    color: rgb(53, 49, 49);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .icon a:hover {
+    background-color: #000;
+  }
+
