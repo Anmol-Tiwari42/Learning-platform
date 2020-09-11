@@ -9,7 +9,7 @@ anime.timeline({loop: true})
     scale: [14,1],
     opacity: [0,1],
     easing: "easeOutCirc",
-    duration: 800,
+    duration: 3000,
     delay: (el, i) => 800 * i
   }).add({
     targets: '.ml15',

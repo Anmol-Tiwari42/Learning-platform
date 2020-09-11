@@ -82,7 +82,7 @@
     margin-top: 5px;
     font-size: 16px;
     padding-bottom: 5px;
-    border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+    border-bottom: 1.5px solid rgba(124, 104, 104, 0.4);
     text-align: center;
     font-family: 'Alata', sans-serif; 
   }
@@ -163,7 +163,7 @@
     top: 0;
     width: 900px;
     height: 100%;
-    background-image: url(/Images/bg1.jpg);
+    background-image: url(/Images/bg.jpg);
     background-size: cover;
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;

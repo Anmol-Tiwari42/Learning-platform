@@ -11,18 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <div class="cont">
         <h2 class="ml15">
-            <span class="word">Welcome</span>
-            <span class="word">--You!</span>
+            <span class="word">Welcome back!</span>
         </h2>
         <div class="form sign-in">
             <h2>Sign In</h2>
             <label>
                 <span>Email  Address</span>
-                <input type="email" name="email">
+                <input type="email" name="email" required>
             </label>
             <label>
                 <span>Password</span>
-                <input type="password" name="password">
+                <input type="password" name="password" required>
             </label>
             <button class="submit" type="button">Sign In</button>
             <p class="forgot-pass">Forgot Password ?</p>
@@ -46,7 +45,7 @@
                 <h2>Sign Up</h2>
                 <label>
                     <span>Name</span>
-                    <input type="text">
+                    <input type="text" name="signup-name" onblur="nameValidate()"/>
                 </label>
                 <label>
                     <span>Email</span>
@@ -65,4 +64,5 @@
         </div>
     </div>
 <script type="text/javascript" src="/JS/index.js"></script>
+<script type="text/javascript" src="/JS/formValidation.js"></script>
 </body>
