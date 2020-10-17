@@ -10,11 +10,12 @@ body{
 }
 
 header{
-    background-image: linear-gradient(rgba(15, 14, 14, 0.76),rgba(32, 31, 31, 0.767)),url('../Images/pexels-pixabay-247819.jpg');
+    background-image: linear-gradient(rgba(10, 9, 9, 0.671),rgba(22, 21, 21, 0.747)),url('../Images/pexels-pixabay-247819.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
 }
+
+/* main.html is start */
 
 .logo{
     max-width: 1180px;
@@ -29,7 +30,7 @@ header{
 }
 
 .logo p{
-    color: rgba(144, 192, 33, 0.767);
+    color: rgba(212, 233, 21, 0.767);
     font-size: 30px;
 }
 
@@ -39,20 +40,21 @@ header{
     margin-left: 15px;
 }
 
-.btns{
+
+.side{
     float: left;
-    margin-top: 80px;
+    margin-top: -22px;
     margin-left: 30%;
     margin-right: 20px;
 }
 
-.btns li{
+.side li{
     display: inline-block;
     list-style: none;
     margin-left: 30px;
 }
 
-.btns li a{
+.side li a{
     padding: 5px 0px;
     color: rgb(243, 161, 9);
     text-decoration: none;
@@ -60,11 +62,191 @@ header{
     font-weight: 100;
 }
 
-.btns input{
+.side input{
     border: none;
     margin-left: 30px;
 }
 
-.btns li a:hover{
+.side li a:hover{
     border-bottom: 3px solid #0905f3c0;
 }
+
+.menu{
+    float: left;
+    margin-top: 40px;
+    margin-left: 23%;
+    margin-right: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.menu li a{
+    padding: 5px 0px;
+    color: rgb(243, 161, 9);
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.menu input{
+    border: none;
+    margin-left: 30px;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid #0905f3c0;
+}
+
+.option{
+    display: none;
+    position: absolute;
+    background-color: #0a0a08da;
+    margin-top: 65px;
+    min-width: 160px;
+    box-shadow: 3px 6px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.option li{
+    display: inline;
+}
+
+.option li a{
+    color: rgba(245, 201, 6, 0.774);
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.option li a:hover{
+    background-color: rgba(67, 71, 67, 0.705);
+    border-bottom: 2px solid #3364eccc;
+}
+
+.menu:hover .option{
+    display: block;
+}
+
+.cards {
+    padding-top: 140px;
+    max-width: 1800px;
+    margin-left: 9%;
+}
+
+.card {
+	background-color: rgba(17, 15, 15, 0.76);
+	box-shadow: 5px 10px 20px rgba(115, 194, 47, 0.829), 0 6px 6px rgba(25, 51, 10, 0.76);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+	position: relative;
+    margin: 3%;
+    width: 300px;
+    height: 150px;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card h2{
+    color: chartreuse;
+    
+}
+
+.card p{
+    color: aliceblue;
+}
+
+.card img{
+    color: aliceblue;
+}
+
+/* main.html is end */
+
+
+/* contect.html is start */
+.info {
+    padding-top: 110px;
+    max-width: 1800px;
+    margin-left: 9%;
+}
+
+.box {
+	background-color: rgba(17, 15, 15, 0.76);
+	box-shadow: 5px 10px 20px rgba(115, 194, 47, 0.829), 0 6px 6px rgba(25, 51, 10, 0.76);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+	position: relative;
+    margin: 3%;
+    width: 300px;
+    height: 430px;
+}
+
+.box a p{
+    margin-top: -55px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.box h2{
+    color: chartreuse;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box img{
+    margin-left: 40px;
+    width: 170px;
+    height: 200px;
+}
+
+.box a img{
+    color: aliceblue;
+    height: 60px;
+    width: auto;
+    margin-top: 5px;
+}
+/* contect.html is end */
+
+
+/* About.html is start */
+.inte {
+	background-color: rgba(17, 15, 15, 0.76);
+	box-shadow: 5px 10px 20px rgba(115, 194, 47, 0.829), 0 6px 6px rgba(25, 51, 10, 0.76);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 1100px;
+    height: 440px;
+}
+
+.inte h2{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 15px;
+}
+
+.inte p{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 20px; 
+}
+/* About.html is end */
