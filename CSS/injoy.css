@@ -28,10 +28,6 @@ header{
 .logo{
     max-width: 1180px;
     margin: 0 auto;
-    animation-duration: 2000ms;
-    animation-name: blaks;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 @keyframes blaks{
